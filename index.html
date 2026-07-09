@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Software Design Bureau</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512' shape-rendering='crispEdges'><rect width='512' height='512' fill='%231a1a1a'/><polygon points='60,512 210,512 400,140 250,140' fill='%23f4f0e8'/><polygon points='512,50 512,250 340,400 280,360' fill='%23c42e2e'/><polygon points='280,512 430,512 512,380 512,340' fill='%23f4f0e8'/></svg>">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #1a1a1a;
+    color: #f4f0e8;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+  }
+  .card {
+    max-width: 560px;
+    width: 100%;
+    border: 3px solid #f4f0e8;
+    padding: 56px;
+    background: #141414;
+  }
+  .logo {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 32px;
+  }
+  .lockup-name {
+    font-weight: 900;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 1.1;
+    margin-bottom: 8px;
+  }
+  .lockup-abbr {
+    font-size: 13px;
+    font-weight: 700;
+    color: #c42e2e;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+  .tagline {
+    font-size: 14px;
+    font-weight: 400;
+    color: #a1a1aa;
+    line-height: 1.6;
+    margin-bottom: 36px;
+  }
+  .accent {
+    width: 60px;
+    height: 4px;
+    background: #c42e2e;
+    margin-bottom: 36px;
+  }
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 36px;
+  }
+  .links a {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #f4f0e8;
+    text-decoration: none;
+    border-bottom: 2px solid #3a3a3a;
+    padding-bottom: 4px;
+    transition: border-color 0.15s;
+  }
+  .links a:hover {
+    border-color: #c42e2e;
+  }
+  .email-line {
+    font-size: 13px;
+    color: #6b6b6b;
+    border-top: 2px solid #3a3a3a;
+    padding-top: 24px;
+    font-family: 'SF Mono', 'JetBrains Mono', monospace;
+    letter-spacing: 0.5px;
+  }
+  .email-line a {
+    color: #f4f0e8;
+    text-decoration: none;
+  }
+  .email-line a:hover {
+    color: #c42e2e;
+  }
+  .location {
+    color: #a1a1aa;
+  }
+</style>
+</head>
+<body>
+<div class="card">
+
+  <!-- Logo mark -->
+  <svg class="logo" viewBox="0 0 512 512" shape-rendering="crispEdges">
+    <rect width="512" height="512" fill="#141414"/>
+    <polygon points="60,512 210,512 400,140 250,140" fill="#f4f0e8"/>
+    <polygon points="512,50 512,250 340,400 280,360" fill="#c42e2e"/>
+    <polygon points="280,512 430,512 512,380 512,340" fill="#f4f0e8"/>
+  </svg>
+
+  <!-- Brand lockup -->
+  <div class="lockup-name">Software Design<br>Bureau</div>
+  <div class="lockup-abbr">S D B</div>
+
+  <div class="accent"></div>
+
+  <div class="tagline">
+    Software studio. Developer tools, AI agent skills, utilities.
+    <br><span class="location">Wales, est. 2026</span>
+  </div>
+
+  <div class="links">
+    <a href="https://x.com/softwaredesignbureau">X</a>
+    <a href="https://github.com/software-design-bureau">GitHub</a>
+    <a href="https://linkedin.com/company/software-design-bureau">LinkedIn</a>
+  </div>
+
+  <div class="email-line">
+    <a href="mailto:hello@designbureau.tech">hello@designbureau.tech</a>
+  </div>
+
+</div>
+</body>
+</html>
